@@ -10,7 +10,7 @@ public class Test1
 	{
 		String name = "Welcome To Mangalore";
 		Test T = new Test();
-		T.setname(name);
+		T.getNames(name);
 		System.out.println(T.i);
 	}
 
