@@ -3,12 +3,12 @@ public class Pattern2
 {
 	public static void main(String[] args) 
 	{
-		int n=3, stars;
-		for ( int i=0 ; i<3 ;i++ )
+		int n=3,i;
+		for ( i=0 ; i<3 ;i++ ) //i=1
 		{
-			stars = n-i;
+			//stars = n-i;
 			
-			for ( int j=0 ; j<stars ;j++)
+			for ( int j=0 ; j<n-i ;j++) //j=2
 			{
 				System.out.print("*");
 			}
